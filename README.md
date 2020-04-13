@@ -21,7 +21,7 @@ Essa aplicação contém os micro e nano-serviços para as seguintes aplicaçõe
     cd covid-back
     yarn install
    
-   Para rodar as functions locais utilize a CLI do firebase :gesto_ok::
+   Para rodar as functions locais utilize a CLI do firebase :ok_hand::
     
     firebase serve --only functions
 
