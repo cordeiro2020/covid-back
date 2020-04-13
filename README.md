@@ -4,9 +4,9 @@
 
 Essa aplicação contém os micro e nano-serviços para as seguintes aplicações:
 
--  [COVID-Diagnóstico](https://) 
--  [COVID-Dashboard](https://) 
--  [COVID-Segurança](https://) 
+-  [COVID-Diagnóstico](https://github.com/cordeiro2020/covid-diagnostico) 
+-  [COVID-Dashboard](https://github.com/cordeiro2020/covid-dashboard) 
+-  [COVID-Segurança](https://github.com/cordeiro2020/covid-seguranca) 
 
 
 ## Pré-requisitos :heavy_check_mark:
