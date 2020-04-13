@@ -14,13 +14,16 @@ Essa aplicação contém os micro e nano-serviços para as seguintes aplicaçõe
 * [node](https://nodejs.org/en/) - v8.0.0 ou superior
 * [yarn](https://yarnpkg.com/pt-BR/) - v1.15 ou superior
 
+
 ## Iniciando :zap:
 
     git clone https://github.com/cordeiro2020/covid-back.git
     cd covid-back
     yarn install
-    Edite suas credências do firebase em `.env.local` :ok_hand:
-    Não esqueça de inicializar o método de login "Email\Senha" no firebase, e também o firestore
+   
+   Edite suas credências do firebase em `.env.local` :ok_hand:
+   Não esqueça de inicializar o método de login "Email\Senha" no firebase, e também o firestore
+    
     yarn start
 
 ## Build :hammer:
