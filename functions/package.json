@@ -1,0 +1,41 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.0",
+    "firebase-functions": "^3.2.0",
+    "geoutils": "^0.1.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mysql": "^2.17.1",
+    "regex": "^0.1.1",
+    "request": "^2.88.0",
+    "turf-buffer": "^3.0.12",
+    "twilio": "^3.41.1",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
