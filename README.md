@@ -21,10 +21,9 @@ Essa aplicação contém os micro e nano-serviços para as seguintes aplicaçõe
     cd covid-back
     yarn install
    
-   Edite suas credências do firebase em `.env.local` :ok_hand:
-   Não esqueça de inicializar o método de login "Email\Senha" no firebase, e também o firestore
+   Para rodar as functions locais utilize a CLI do firebase :gesto_ok::
     
-    yarn start
+    firebase serve --only functions
 
 ## Build :hammer:
     yarn build
