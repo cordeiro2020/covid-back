@@ -9,24 +9,24 @@ Essa aplicação contém os micro e nano-serviços para as seguintes aplicaçõe
 -  [COVID-Segurança](https://) 
 
 
-## Pré-requisitos :tw-2705:
+## Pré-requisitos :heavy_check_mark:
 
 * [node](https://nodejs.org/en/) - versão ?
 
-## Iniciando :tw-26a1:
+## Iniciando :zap:
     git clone 
     cd cubo-fullstack-challenge
     yarn install && yarn start
 
-## Deployment :tw-1f680:
+## Deployment :rocket:
 
     ?
 
-## Feito com :tw-1f4e6:
+## Feito com :package:
 
 * [create-react-app](https://github.com/facebook/create-react-app) - Skeleton Structure
 * [firebase](https://www.npmjs.com/package/firebase) - NoSQL Database
 
-## Quem participou? :tw-1f465:
+## Quem participou? :busts_in_silhouette:
 
 * **Augusto Coelho** - *São Paulo* - [Email](mailto:augustocoelhohenriques@gmail.com.br)
