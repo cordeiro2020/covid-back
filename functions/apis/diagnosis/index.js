@@ -686,27 +686,27 @@ getWarning = async (statusId, hasteId) => {
 
     if (hasteKey == 0) {
         return {
-            baseMsg: "Suas informações foram enviadas para a equipe de medicina da Klabin, que vai avaliar seu quadro e entrar em contato o mais breve possível.",
-            warning: "Enquanto aguarda o retorno da nossa equipe médica, pedimos que você permaneça na sua casa.Se você não for colaborador Klabin, procure atendimento em sua cidade.",
+            baseMsg: "Suas informações foram enviadas para a equipe de medicina da <nome-empresa>, que vai avaliar seu quadro e entrar em contato o mais breve possível.",
+            warning: "Enquanto aguarda o retorno da nossa equipe médica, pedimos que você permaneça na sua casa.Se você não for colaborador <nome-empresa>, procure atendimento em sua cidade.",
             hasteKey: 0
         }
     } else if (hasteKey == 1) {
         return {
             baseMsg: "Pedimos que antes de iniciar sua jornada de trabalho, procure apoio local e avise sobre o seu sintoma.",
-            warning: "Caso você seja do Florestal MA, pedimos que permaneça em casa, enquanto aguarda o retorno da nossa equipe médica.Se você não for colaborador Klabin, procure atendimento em sua cidade.",
+            warning: "Caso você seja do Florestal MA, pedimos que permaneça em casa, enquanto aguarda o retorno da nossa equipe médica.Se você não for colaborador <nome-empresa>, procure atendimento em sua cidade.",
             hasteKey: 1
         }
     } else if (hasteKey == 2) {
         if (statusKey == 0) {
             return {
-                baseMsg: "Suas informações foram enviadas para a equipe de medicina da Klabin.",
+                baseMsg: "Suas informações foram enviadas para a equipe de medicina da <nome-empresa>.",
                 warning: "Pedimos que volte a fazer a avaliação daqui a 3 dias ou caso perceba algum sintoma.",
                 hasteKey: 2
             }
         } else if (statusKey == 1) {
             return {
                 baseMsg: "Pedimos que antes de iniciar sua jornada de trabalho, procure apoio local e avise sobre o seu sintoma.",
-                warning: "Caso você seja do Florestal MA, pedimos que permaneça em casa, enquanto aguarda o retorno da nossa equipe médica.Se você não for colaborador Klabin, procure atendimento em sua cidade.",
+                warning: "Caso você seja do Florestal MA, pedimos que permaneça em casa, enquanto aguarda o retorno da nossa equipe médica.Se você não for colaborador <nome-empresa>, procure atendimento em sua cidade.",
                 hasteKey: 2
             }
         }
