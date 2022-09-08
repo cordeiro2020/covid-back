@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "excel4node": "^1.7.2",
+    "excel4node": "^1.8.0",
     "lodash": "^4.17.15",
     "moment-timezone": "^0.5.27",
     "twilio": "^3.41.1"
